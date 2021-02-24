@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600&display=swap');
+
+body {
+   background-color: #f4f4f4; 
+   font-family: 'Quicksand';
+}
+
+/* PC */
+@media screen and (min-width: 600px) {
+    
+  }
+  
+  /* Telefonos */
+  @media only screen and (max-width: 600px) {
+    
+  }
+  

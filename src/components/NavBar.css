@@ -1,0 +1,25 @@
+.toolbar-style {
+    height: 60pt;
+}
+
+.cambio {
+    color: #bbb;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.cambio:hover {
+    color: #f4f4f4;
+    cursor: pointer;
+    transition: all 0.5s;   
+}
+
+/* PC */
+@media screen and (min-width: 600px) {
+    
+}
+
+/* Telefonos */
+@media only screen and (max-width: 600px) {
+  
+}
