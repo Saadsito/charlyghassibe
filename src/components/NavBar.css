@@ -2,14 +2,20 @@
     height: 60pt;
 }
 
-.cambio {
+.option-bar {
     color: #bbb;
     font-size: 20pt;
     font-weight: bold;
 }
 
-.cambio:hover {
-    color: #f4f4f4;
+.logo-style {
+    width: 90pt;
+    height: 90pt;
+    margin-left: -25pt;
+}
+
+.option-bar:hover {
+    color: #373737;
     cursor: pointer;
     transition: all 0.5s;   
 }

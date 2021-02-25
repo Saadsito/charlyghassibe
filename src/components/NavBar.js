@@ -7,6 +7,9 @@ import {
 } from "@material-ui/core/styles";
 import "./NavBar.css";
 import Button from "@material-ui/core/Button";
+import Logo from "../assets/logo.png";
+import IconButton from "@material-ui/core/IconButton";
+import SvgIcon from "@material-ui/core/SvgIcon";
 
 const theme = createMuiTheme({
   typography: {
@@ -62,9 +65,9 @@ function NavBar() {
   return (
     <>
      <ThemeProvider theme={theme}>
-        <AppBar position="sticky" color="primary">
+        <AppBar elevation={0} position="sticky" color="secondary">
           <Toolbar className="toolbar-style">
-            <p className="cambio">PRUEBA</p>
+            <img src={Logo} className="logo-style"/>
           </Toolbar>
         </AppBar>  
       </ThemeProvider>
